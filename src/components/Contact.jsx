@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Resume from "../assets/JANANI.pdf";
+//import Resume from "../assets/JANANI.pdf";
 
 const Contact = () => {
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
@@ -28,7 +28,7 @@ const Contact = () => {
       <div className="contact-info">
         <p>Feel free to send me a message or download my resume to know more about my work.</p>
         <a
-          href={Resume}
+          href=""
           target="_blank"
           rel="noopener noreferrer"
           className="resume-btn"
