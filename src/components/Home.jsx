@@ -1,22 +1,21 @@
 import React from 'react';
-import profile from "../assets/profile pic.jpg"
+import profile from "../assets/profile pic.jpg";
 
 const Home = () => {
     return (
         <section className="home">
             <div className="intro">
-                {/* Profile picture */}
                 <img
-                    src={profile} // Replace this with the actual image path
+                    src={profile}
                     alt="Dineshkumar"
                     className="profile-pic"
                 />
-                <div>
+                <div className="content">
                     <h2>
                         Hello, I'm <span>Dineshkumar</span>
                     </h2>
                     <p>
-                        A passionate Full-Stack Developer building modern web applications.
+                    As a recent graduate with a passion for web development, I build modern, responsive, and scalable applications using the latest technologies. 
                     </p>
                 </div>
             </div>

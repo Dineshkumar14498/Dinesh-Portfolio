@@ -15,6 +15,11 @@ const Header = () => {
         <NavLink exact to="/" activeClassName="active" className="nav-link">
           Home
         </NavLink>
+
+        <NavLink exact to="/AdditionalInfo" activeClassName="active" className="nav-link">
+          Resume
+        </NavLink>
+
         
         <NavLink to="/skills" activeClassName="active" className="nav-link">
           Skills
