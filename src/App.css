@@ -227,7 +227,7 @@ nav {
 }
 
 .home {
-  padding: 20px;
+  padding: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -238,7 +238,7 @@ nav {
 .intro {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 75px;
   max-width: 1200px;
   margin: auto;
   flex-wrap: wrap;
@@ -246,11 +246,9 @@ nav {
 }
 
 .profile-pic {
-  width: 400px;
+  width: 300px;
   height: 400px;
-  border-radius: 50%;
   object-fit: cover;
-  border: 2px solid #333;
   flex-shrink: 0;
   transition: transform 0.3s ease-in-out;
 }
@@ -275,7 +273,7 @@ nav {
 .content p {
   font-size: 1.5rem;
   line-height: 1.6;
-  color: #555;
+  color: #0c0c0c;
 }
 
 @media (max-width: 768px) {
@@ -317,6 +315,7 @@ nav {
       padding: 10px;
   }
 }
+
 
 .projects {
   padding: 3rem;

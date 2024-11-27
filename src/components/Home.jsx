@@ -15,7 +15,9 @@ const Home = () => {
                         Hello, I'm <span>Dineshkumar</span>
                     </h2>
                     <p>
-                    As a recent graduate with a passion for web development, I build modern, responsive, and scalable applications using the latest technologies. 
+                        As a recent graduate with a passion for web development, I build modern, responsive, and scalable applications Proficient in front-end and
+                        back-end technologies like HTML, CSS, JavaScript, and React.
+                        Looking to join a team <br /> that values innovation and creativity.
                     </p>
                 </div>
             </div>
