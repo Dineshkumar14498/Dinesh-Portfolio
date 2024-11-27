@@ -1,5 +1,5 @@
 import React from 'react';
-// import Resume from "../assets/JANANI.pdf"
+import Resume from "../assets/Dinesh Resume.pdf"
 
 const Footer = () => {
     return (
@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="footer-links">
                 <a href="https://www.linkedin.com/in/dinesh-kumar-2565191b4/" target="_blank" rel="Dineshkumar">LinkedIn</a> |
                 <a href="https://github.com/Dineshkumar14498" target="_blank" rel="Dineshkumar">GitHub</a> |
-                <a href="" target="_blank" rel="noopener noreferrer">Resume</a>
+                <a href={Resume} target="_blank" rel="noopener noreferrer">Resume</a>
             </div>
 
             {/* Contact Info */}
