@@ -5,41 +5,43 @@ const Projects = () => {
   const projects = [
     {
       name: "Guvi-Blog-Clone",
-      description: "The GUVI Blog Application is a sleek platform for sharing and exploring blogs.and interact with posts,responsive design, and easy navigation, it’s perfect for blogging anytime, anywhere!",
-      link: "https://curious-griffin-19bf4d.netlify.app/"
-
+      description: "The GUVI Blog Application is a sleek platform for sharing and exploring blogs.With responsive design and easy navigation, it’s perfect for blogging anytime, anywhere!",
+      link: "https://curious-griffin-19bf4d.netlify.app/",
     },
     {
       name: "UserManagement",
-      description: "Axios Curd-Operation Create in React. Interact with a mock API using Axios to fetch, add, edit, and delete user records.",
-      link: "https://usermanagementdk.netlify.app/"
+      description: "Axios CRUD Operation in React. Interact with a mock API using Axios to fetch, add, edit, and delete user records.",
+      link: "https://usermanagementdk.netlify.app/",
     },
-
-    
-
-
-
   ];
 
   return (
     <section className="projects">
       {/* Heading for the projects section */}
-      <h2>Projects</h2>
-      
-      {/* Container for all project cards */}
-      <div className="project-list">
-        {/* Iterate over the projects array and render a card for each */}
+      <h2 className="projects__heading">Projects</h2>
+
+      {/* List of projects */}
+      <ul className="projects__list">
         {projects.map((project, index) => (
-          <div className="project-card" key={index}>
-            {/* Project title */}
-            <h3>{project.name}</h3>
-            {/* Project description */}
-            <p>{project.description}</p>
-            {/* Link to view the project */}
-            <a href={project.link} target="_blank" rel="noopener noreferrer">View Project</a>
-          </div>
+          <li className="projects__item" key={index}>
+            <div className="projects__content">
+              {/* Project title */}
+              <h3 className="projects__title">{project.name}</h3>
+              {/* Project description */}
+              <p className="projects__description">{project.description}</p>
+              {/* Link to view the project */}
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="projects__link"
+              >
+                View Project
+              </a>
+            </div>
+          </li>
         ))}
-      </div>
+      </ul>
     </section>
   );
 };
